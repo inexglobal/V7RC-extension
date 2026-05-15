@@ -10,7 +10,7 @@ Blockly.defineBlocksWithJsonArray([
   "inputsInline": true,
   "previousStatement": null,
   "nextStatement": null,
-  "colour": "#F39C12",
+  "colour": "#CF131C",
   "tooltip": "Start V7RC receiver using MicroPython UART.",
   "helpUrl": ""
 },
@@ -19,7 +19,7 @@ Blockly.defineBlocksWithJsonArray([
   "message0": "V7RC update",
   "previousStatement": null,
   "nextStatement": null,
-  "colour": "#F39C12",
+  "colour": "#CF131C",
   "tooltip": "Read and parse the latest V7RC packet.",
   "helpUrl": ""
 },
@@ -27,7 +27,7 @@ Blockly.defineBlocksWithJsonArray([
   "type": "v7rc_command_data",
   "message0": "V7RC command data",
   "output": "String",
-  "colour": "#F39C12",
+  "colour": "#CF131C",
   "tooltip": "Return latest command data such as SRV, SR2, SRT, SS8, HEX, DEG, CMD, LED, LE2, LE5.",
   "helpUrl": ""
 },
@@ -35,7 +35,7 @@ Blockly.defineBlocksWithJsonArray([
   "type": "v7rc_command_code",
   "message0": "V7RC command data",
   "output": "String",
-  "colour": "#F39C12",
+  "colour": "#CF131C",
   "tooltip": "Compatibility block. Return latest command data such as SRV, HEX, DEG, CMD.",
   "helpUrl": ""
 },
@@ -43,7 +43,7 @@ Blockly.defineBlocksWithJsonArray([
   "type": "v7rc_raw_data",
   "message0": "V7RC raw data",
   "output": "String",
-  "colour": "#F39C12",
+  "colour": "#CF131C",
   "tooltip": "Return latest raw data packet as readable string when possible.",
   "helpUrl": ""
 },
@@ -51,7 +51,7 @@ Blockly.defineBlocksWithJsonArray([
   "type": "v7rc_cmd_text",
   "message0": "V7RC CMD text",
   "output": "String",
-  "colour": "#F39C12",
+  "colour": "#CF131C",
   "tooltip": "Return pass-through CMD payload text without right-side padding spaces.",
   "helpUrl": ""
 },
@@ -83,7 +83,7 @@ Blockly.defineBlocksWithJsonArray([
     }
   ],
   "output": "Number",
-  "colour": "#F39C12",
+  "colour": "#CF131C",
   "tooltip": "Return V7RC channel value as a PWM-style microsecond reading. Usually 1000 to 2000 us.",
   "helpUrl": ""
 },
@@ -115,7 +115,7 @@ Blockly.defineBlocksWithJsonArray([
     }
   ],
   "output": "Number",
-  "colour": "#F39C12",
+  "colour": "#CF131C",
   "tooltip": "Convert channel read PWM us from 1000-2000 to 0-100 percent. 1000=0%, 1500=50%, 2000=100%.",
   "helpUrl": ""
 },
@@ -147,7 +147,7 @@ Blockly.defineBlocksWithJsonArray([
     }
   ],
   "output": "Number",
-  "colour": "#F39C12",
+  "colour": "#CF131C",
   "tooltip": "Convert channel read PWM us from 1000-2000 to signed percent. 1000=-100, 1500=0, 2000=100. This matches the orange value in V7RC UI.",
   "helpUrl": ""
 },
@@ -179,7 +179,7 @@ Blockly.defineBlocksWithJsonArray([
     }
   ],
   "output": "Number",
-  "colour": "#F39C12",
+  "colour": "#CF131C",
   "tooltip": "Return channel raw byte value. HEX and DEG use raw bytes directly; SRV/SR2/SRT convert read PWM us to value / 10.",
   "helpUrl": ""
 },
@@ -211,7 +211,7 @@ Blockly.defineBlocksWithJsonArray([
     }
   ],
   "output": "Number",
-  "colour": "#F39C12",
+  "colour": "#CF131C",
   "tooltip": "Return channel angle degree from DEG command. Formula: degree = value - 127.",
   "helpUrl": ""
 },
@@ -243,7 +243,7 @@ Blockly.defineBlocksWithJsonArray([
     }
   ],
   "output": "Number",
-  "colour": "#F39C12",
+  "colour": "#CF131C",
   "tooltip": "Return raw payload byte index 0..15 from HEX, DEG, LED, LE2, LE?.",
   "helpUrl": ""
 },
@@ -251,7 +251,7 @@ Blockly.defineBlocksWithJsonArray([
   "type": "v7rc_lost_signal",
   "message0": "V7RC lost signal",
   "output": "Boolean",
-  "colour": "#F39C12",
+  "colour": "#CF131C",
   "tooltip": "Return True when no valid packet is received within fail-safe time.",
   "helpUrl": ""
 }

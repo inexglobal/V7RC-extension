@@ -1,11 +1,11 @@
 ({
-    name: "v7rc",
+    name: "V7RC",
     description: "V7RC IO Command Protocol receiver for MicroPython UART",
     author: "INEX / microBlock",
     category: "Communication",
-    version: "1.4.3",
+    version: "1.0.0",
     icon: "/static/icon.png",
-    color: "#F39C12",
+    color: "#CF131C",
     blocks: [
         {
             xml: `<label text="General"></label>`
