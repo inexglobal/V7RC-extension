@@ -15,12 +15,12 @@
                 <block type="v7rc_begin">
                     <value name="UART_ID">
                         <shadow type="math_number">
-                            <field name="NUM">1</field>
+                            <field name="NUM">0</field>
                         </shadow>
                     </value>
                     <value name="RX">
                         <shadow type="math_number">
-                            <field name="NUM">5</field>
+                            <field name="NUM">1</field>
                         </shadow>
                     </value>
                     <value name="BAUD">
