@@ -1,7 +1,5 @@
 function v7rcDefinitions() {
-  Blockly.Python.definitions_['from_machine_import_uart_pin'] = 'from machine import UART, Pin';
-  Blockly.Python.definitions_['from_time_import_ticks'] = 'from time import ticks_ms, ticks_diff';
-  Blockly.Python.definitions_['v7rc_class'] = 'import V7RC';
+  Blockly.Python.definitions_['v7rc_class'] = 'from V7RC_lib import V7RC';
   Blockly.Python.definitions_['v7rc_object'] = 'v7rc = V7RC()';
 }
 

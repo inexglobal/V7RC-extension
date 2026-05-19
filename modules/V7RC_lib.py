@@ -14,6 +14,8 @@
 #   command text decoding, LED group detection, and lost-signal monitoring.
 #   It is designed for reliable real-time control through UART communication.
 # =============================================================================
+from machine import UART, Pin
+from time import ticks_ms, ticks_diff
 class V7RC:
     PACKET_LENGTH = 20
     LOST_SIGNAL_MAX_TIME = 500
